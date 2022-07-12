@@ -1,11 +1,4 @@
-#header{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#header h1{
-    font-size: 33px;
-}
 p{
-    font-size: 12px;
+    font-size: 18px;
+    color: blue;
 }

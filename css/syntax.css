@@ -1,15 +1,13 @@
-/*TARGETING ELEMENTS / TAGS*/
-h2{
-    font-size: 24px;
-}
-#content-header{
-    font-size: 10px;
+body{
     color: red;
 }
-span{
-    display: block;
+div{
     color: blue;
 }
-.deck{
-    color: red;
+p{
+    color: green;
+}
+a{
+    color: yellow;
+    text-decoration: underline;
 }

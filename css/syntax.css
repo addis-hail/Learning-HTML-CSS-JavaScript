@@ -1,12 +1,6 @@
-span[class~="deck"]{
-    color: purple;
+li:nth-child(1), li:nth-child(7){
+    font-weight: bold;
 }
-div[id]{
-    background: grey;
-}
-a[href$="pdf"]{
-    color: green;
-}
-a[href^="http"]{
-    color: blueviolet;
+li:nth-child(3n+1){
+    background: pink;
 }

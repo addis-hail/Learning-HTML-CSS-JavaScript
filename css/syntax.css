@@ -1,13 +1,12 @@
-body{
-    color: red;
+span[class~="deck"]{
+    color: purple;
 }
-div{
-    color: blue;
+div[id]{
+    background: grey;
 }
-p{
+a[href$="pdf"]{
     color: green;
 }
-a{
-    color: yellow;
-    text-decoration: underline;
+a[href^="http"]{
+    color: blueviolet;
 }

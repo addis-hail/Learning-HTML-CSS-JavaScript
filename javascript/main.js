@@ -1,20 +1,10 @@
-var Car = function(maxSpeed, driver){
-    this.maxSpeed = maxSpeed;
-    this.driver = driver;
-    this.drive = function(speed, time){
-        console.log(speed * time);
-    };
-    this.logDriver = function(){
-        console.log("Driver's name is: " + this.driver);
-       };
-}
-var myCar = new Car(70, "Addisalem");
-var myCar2 = new Car(80, "Addis");
-var myCar3 = new Car(90, "AddisHail");
-var myCar3 = new Car(100, "Others");
-
-myCar.drive(30,5)
-myCar3.logDriver();
+var birthday = new Date(1993, 3, 30, 1, 30, 35)
+console.log(birthday.getMonth());
+console.log(birthday.getFullYear());
+console.log(birthday.getDate());
+console.log(birthday.getDay());
+console.log(birthday.getHours());
+console.log(birthday.getTime());
 
 
 

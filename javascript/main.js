@@ -1,12 +1,9 @@
-function getAverage (a,b,c,d,e,f){
-    var average = (a + b + c + d + e + f)/2;//local variable
-    console.log(average);
-    return average;
-}
- var myResult = getAverage(28,12,88,99,11,10);//global variable
+var myString = "This is a \"fun\" string hate";
 
-
-function logResult(){
-    console.log("The average is: " + myResult + " insde the functiom");
+if(myString.indexOf("hate") === -1){
+    console.log("The word hate is not in the string");
 }
-logResult();
+else{
+    console.log("The word hate starts at: " + myString.indexOf("hate"));
+}
+

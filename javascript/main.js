@@ -1,10 +1,18 @@
-var birthday = new Date(1993, 3, 30, 1, 30, 35)
-console.log(birthday.getMonth());
-console.log(birthday.getFullYear());
-console.log(birthday.getDate());
-console.log(birthday.getDay());
-console.log(birthday.getHours());
-console.log(birthday.getTime());
+var content = document.getElementById("content");
+var button = document.getElementById("show-more");
+
+button.onclick = function(){
+    if(content.className == "open"){
+        //shrink the box
+        content.className = "";
+        button.innerHTML = "Show More"
+    }
+    else{
+        //expand the box
+        content.className = "open";
+        button.innerHTML = "Show Less"
+    }
+};
 
 
 
